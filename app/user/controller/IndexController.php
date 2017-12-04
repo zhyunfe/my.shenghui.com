@@ -55,7 +55,7 @@ class IndexController extends HomeBaseController
     }
     public function test()
     {
-
+        $msg = '这是newest分支的文字' ;
     }
 
 }
