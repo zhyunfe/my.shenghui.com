@@ -53,5 +53,9 @@ class IndexController extends HomeBaseController
         session("user", null);//只有前台用户退出
         return redirect($this->request->root() . "/");
     }
+    public function test()
+    {
+
+    }
 
 }
